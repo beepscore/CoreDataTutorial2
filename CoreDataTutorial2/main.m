@@ -13,7 +13,7 @@ static NSManagedObjectModel *managedObjectModel()
         return model;
     }
     
-    NSString *path = @"CoreDataTutorial2";
+    NSString *path = @"FailedBankCD";
     path = [path stringByDeletingPathExtension];
     NSURL *modelURL = [NSURL fileURLWithPath:[path stringByAppendingPathExtension:@"momd"]];
     model = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];

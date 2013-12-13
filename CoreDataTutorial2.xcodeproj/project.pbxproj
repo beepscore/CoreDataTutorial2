@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE3059F0185AC24A00B50354 /* FailedBankCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE3059EE185AC24A00B50354 /* FailedBankCD.xcdatamodeld */; };
+		DE3059F5185AC26100B50354 /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3059F2185AC26100B50354 /* FailedBankDetails.m */; };
+		DE3059F6185AC26100B50354 /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3059F4185AC26100B50354 /* FailedBankInfo.m */; };
 		DE8CE680185ABB7A007055FD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8CE67F185ABB7A007055FD /* CoreData.framework */; };
 		DE8CE682185ABB7A007055FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8CE681185ABB7A007055FD /* Foundation.framework */; };
 		DE8CE685185ABB7A007055FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8CE684185ABB7A007055FD /* main.m */; };
-		DE8CE68A185ABB7A007055FD /* CoreDataTutorial2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE8CE688185ABB7A007055FD /* CoreDataTutorial2.xcdatamodeld */; };
 		DE8CE68C185ABB7A007055FD /* CoreDataTutorial2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE8CE68B185ABB7A007055FD /* CoreDataTutorial2.1 */; };
 /* End PBXBuildFile section */
 
@@ -28,13 +30,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE3059EF185AC24A00B50354 /* FailedBankCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FailedBankCD.xcdatamodel; sourceTree = "<group>"; };
+		DE3059F1185AC26100B50354 /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = SOURCE_ROOT; };
+		DE3059F2185AC26100B50354 /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = SOURCE_ROOT; };
+		DE3059F3185AC26100B50354 /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = SOURCE_ROOT; };
+		DE3059F4185AC26100B50354 /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = SOURCE_ROOT; };
 		DE458901185ABEAF00ED7EC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DE8CE67C185ABB7A007055FD /* CoreDataTutorial2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoreDataTutorial2; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8CE67F185ABB7A007055FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DE8CE681185ABB7A007055FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DE8CE684185ABB7A007055FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DE8CE687185ABB7A007055FD /* CoreDataTutorial2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataTutorial2-Prefix.pch"; sourceTree = "<group>"; };
-		DE8CE689185ABB7A007055FD /* CoreDataTutorial2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTutorial2.xcdatamodel; sourceTree = "<group>"; };
 		DE8CE68B185ABB7A007055FD /* CoreDataTutorial2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CoreDataTutorial2.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +89,11 @@
 			children = (
 				DE8CE684185ABB7A007055FD /* main.m */,
 				DE8CE68B185ABB7A007055FD /* CoreDataTutorial2.1 */,
-				DE8CE688185ABB7A007055FD /* CoreDataTutorial2.xcdatamodeld */,
+				DE3059EE185AC24A00B50354 /* FailedBankCD.xcdatamodeld */,
+				DE3059F1185AC26100B50354 /* FailedBankDetails.h */,
+				DE3059F2185AC26100B50354 /* FailedBankDetails.m */,
+				DE3059F3185AC26100B50354 /* FailedBankInfo.h */,
+				DE3059F4185AC26100B50354 /* FailedBankInfo.m */,
 				DE8CE686185ABB7A007055FD /* Supporting Files */,
 			);
 			path = CoreDataTutorial2;
@@ -148,8 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3059F6185AC26100B50354 /* FailedBankInfo.m in Sources */,
 				DE8CE685185ABB7A007055FD /* main.m in Sources */,
-				DE8CE68A185ABB7A007055FD /* CoreDataTutorial2.xcdatamodeld in Sources */,
+				DE3059F5185AC26100B50354 /* FailedBankDetails.m in Sources */,
+				DE3059F0185AC24A00B50354 /* FailedBankCD.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,13 +278,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		DE8CE688185ABB7A007055FD /* CoreDataTutorial2.xcdatamodeld */ = {
+		DE3059EE185AC24A00B50354 /* FailedBankCD.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				DE8CE689185ABB7A007055FD /* CoreDataTutorial2.xcdatamodel */,
+				DE3059EF185AC24A00B50354 /* FailedBankCD.xcdatamodel */,
 			);
-			currentVersion = DE8CE689185ABB7A007055FD /* CoreDataTutorial2.xcdatamodel */;
-			path = CoreDataTutorial2.xcdatamodeld;
+			currentVersion = DE3059EF185AC24A00B50354 /* FailedBankCD.xcdatamodel */;
+			name = FailedBankCD.xcdatamodeld;
+			path = ../FailedBankCD.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
