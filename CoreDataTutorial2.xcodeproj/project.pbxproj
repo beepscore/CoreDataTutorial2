@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8CE680185ABB7A007055FD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8CE67F185ABB7A007055FD /* CoreData.framework */; };
+		DE8CE682185ABB7A007055FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8CE681185ABB7A007055FD /* Foundation.framework */; };
+		DE8CE685185ABB7A007055FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8CE684185ABB7A007055FD /* main.m */; };
+		DE8CE68A185ABB7A007055FD /* CoreDataTutorial2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE8CE688185ABB7A007055FD /* CoreDataTutorial2.xcdatamodeld */; };
+		DE8CE68C185ABB7A007055FD /* CoreDataTutorial2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE8CE68B185ABB7A007055FD /* CoreDataTutorial2.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE8CE67A185ABB7A007055FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				DE8CE68C185ABB7A007055FD /* CoreDataTutorial2.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE8CE67C185ABB7A007055FD /* CoreDataTutorial2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoreDataTutorial2; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8CE67F185ABB7A007055FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DE8CE681185ABB7A007055FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE8CE684185ABB7A007055FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE8CE687185ABB7A007055FD /* CoreDataTutorial2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreDataTutorial2-Prefix.pch"; sourceTree = "<group>"; };
+		DE8CE689185ABB7A007055FD /* CoreDataTutorial2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataTutorial2.xcdatamodel; sourceTree = "<group>"; };
+		DE8CE68B185ABB7A007055FD /* CoreDataTutorial2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CoreDataTutorial2.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8CE679185ABB7A007055FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8CE680185ABB7A007055FD /* CoreData.framework in Frameworks */,
+				DE8CE682185ABB7A007055FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8CE673185ABB7A007055FD = {
+			isa = PBXGroup;
+			children = (
+				DE8CE683185ABB7A007055FD /* CoreDataTutorial2 */,
+				DE8CE67E185ABB7A007055FD /* Frameworks */,
+				DE8CE67D185ABB7A007055FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8CE67D185ABB7A007055FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8CE67C185ABB7A007055FD /* CoreDataTutorial2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8CE67E185ABB7A007055FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8CE67F185ABB7A007055FD /* CoreData.framework */,
+				DE8CE681185ABB7A007055FD /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8CE683185ABB7A007055FD /* CoreDataTutorial2 */ = {
+			isa = PBXGroup;
+			children = (
+				DE8CE684185ABB7A007055FD /* main.m */,
+				DE8CE68B185ABB7A007055FD /* CoreDataTutorial2.1 */,
+				DE8CE688185ABB7A007055FD /* CoreDataTutorial2.xcdatamodeld */,
+				DE8CE686185ABB7A007055FD /* Supporting Files */,
+			);
+			path = CoreDataTutorial2;
+			sourceTree = "<group>";
+		};
+		DE8CE686185ABB7A007055FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE8CE687185ABB7A007055FD /* CoreDataTutorial2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8CE67B185ABB7A007055FD /* CoreDataTutorial2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8CE68F185ABB7A007055FD /* Build configuration list for PBXNativeTarget "CoreDataTutorial2" */;
+			buildPhases = (
+				DE8CE678185ABB7A007055FD /* Sources */,
+				DE8CE679185ABB7A007055FD /* Frameworks */,
+				DE8CE67A185ABB7A007055FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataTutorial2;
+			productName = CoreDataTutorial2;
+			productReference = DE8CE67C185ABB7A007055FD /* CoreDataTutorial2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8CE674185ABB7A007055FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Beepscore LLC";
+			};
+			buildConfigurationList = DE8CE677185ABB7A007055FD /* Build configuration list for PBXProject "CoreDataTutorial2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE8CE673185ABB7A007055FD;
+			productRefGroup = DE8CE67D185ABB7A007055FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8CE67B185ABB7A007055FD /* CoreDataTutorial2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8CE678185ABB7A007055FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8CE685185ABB7A007055FD /* main.m in Sources */,
+				DE8CE68A185ABB7A007055FD /* CoreDataTutorial2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DE8CE68D185ABB7A007055FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DE8CE68E185ABB7A007055FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DE8CE690185ABB7A007055FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataTutorial2/CoreDataTutorial2-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE8CE691185ABB7A007055FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoreDataTutorial2/CoreDataTutorial2-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8CE677185ABB7A007055FD /* Build configuration list for PBXProject "CoreDataTutorial2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8CE68D185ABB7A007055FD /* Debug */,
+				DE8CE68E185ABB7A007055FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8CE68F185ABB7A007055FD /* Build configuration list for PBXNativeTarget "CoreDataTutorial2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8CE690185ABB7A007055FD /* Debug */,
+				DE8CE691185ABB7A007055FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DE8CE688185ABB7A007055FD /* CoreDataTutorial2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DE8CE689185ABB7A007055FD /* CoreDataTutorial2.xcdatamodel */,
+			);
+			currentVersion = DE8CE689185ABB7A007055FD /* CoreDataTutorial2.xcdatamodel */;
+			path = CoreDataTutorial2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DE8CE674185ABB7A007055FD /* Project object */;
+}
