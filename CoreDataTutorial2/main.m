@@ -44,6 +44,9 @@ static NSManagedObjectContext *managedObjectContext()
         NSURL *url = [NSURL fileURLWithPath:[path stringByAppendingPathExtension:@"sqlite"]];
         
         NSError *error;
+
+        // set options: to use single .sqlite file
+        // https://developer.apple.com/library/ios/releasenotes/DataManagement/WhatsNew_CoreData_iOS/#//apple_ref/doc/uid/TP40013394-CH1-SW1
         NSPersistentStore *newStore = [coordinator
                                        addPersistentStoreWithType:STORE_TYPE
                                        configuration:nil
