@@ -44,11 +44,12 @@ static NSManagedObjectContext *managedObjectContext()
         NSURL *url = [NSURL fileURLWithPath:[path stringByAppendingPathExtension:@"sqlite"]];
         
         NSError *error;
-        NSPersistentStore *newStore = [coordinator addPersistentStoreWithType:STORE_TYPE
-                                                                configuration:nil
-                                                                          URL:url
-                                                                      options:nil
-                                                                        error:&error];
+        NSPersistentStore *newStore = [coordinator
+                                       addPersistentStoreWithType:STORE_TYPE
+                                       configuration:nil
+                                       URL:url
+                                       options:@{NSSQLitePragmasOption:@{ @"journal_mode" : @"DELETE" }}
+                                       error:&error];
         
         if (newStore == nil) {
             NSLog(@"Store Configuration Failure %@", ([error localizedDescription] != nil) ? [error localizedDescription] : @"Unknown Error");
