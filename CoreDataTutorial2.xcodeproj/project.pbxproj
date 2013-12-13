@@ -36,6 +36,7 @@
 		DE3059F3185AC26100B50354 /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = SOURCE_ROOT; };
 		DE3059F4185AC26100B50354 /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = SOURCE_ROOT; };
 		DE458901185ABEAF00ED7EC8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DE82E3C2185AE07700B019BE /* Banks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Banks.json; sourceTree = SOURCE_ROOT; };
 		DE8CE67C185ABB7A007055FD /* CoreDataTutorial2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoreDataTutorial2; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8CE67F185ABB7A007055FD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DE8CE681185ABB7A007055FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +96,7 @@
 				DE3059F3185AC26100B50354 /* FailedBankInfo.h */,
 				DE3059F4185AC26100B50354 /* FailedBankInfo.m */,
 				DE8CE686185ABB7A007055FD /* Supporting Files */,
+				DE82E3C2185AE07700B019BE /* Banks.json */,
 			);
 			path = CoreDataTutorial2;
 			sourceTree = "<group>";
