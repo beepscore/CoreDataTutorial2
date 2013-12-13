@@ -10,6 +10,7 @@
 		DE3059F0185AC24A00B50354 /* FailedBankCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE3059EE185AC24A00B50354 /* FailedBankCD.xcdatamodeld */; };
 		DE3059F5185AC26100B50354 /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3059F2185AC26100B50354 /* FailedBankDetails.m */; };
 		DE3059F6185AC26100B50354 /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3059F4185AC26100B50354 /* FailedBankInfo.m */; };
+		DE4FFCD4185AE4C200227B12 /* Banks.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = DE82E3C2185AE07700B019BE /* Banks.json */; };
 		DE8CE680185ABB7A007055FD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8CE67F185ABB7A007055FD /* CoreData.framework */; };
 		DE8CE682185ABB7A007055FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE8CE681185ABB7A007055FD /* Foundation.framework */; };
 		DE8CE685185ABB7A007055FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8CE684185ABB7A007055FD /* main.m */; };
@@ -17,10 +18,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		DE4FFCD3185AE4B100227B12 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				DE4FFCD4185AE4C200227B12 /* Banks.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DE8CE67A185ABB7A007055FD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
 				DE8CE68C185ABB7A007055FD /* CoreDataTutorial2.1 in CopyFiles */,
@@ -119,6 +130,7 @@
 				DE8CE678185ABB7A007055FD /* Sources */,
 				DE8CE679185ABB7A007055FD /* Frameworks */,
 				DE8CE67A185ABB7A007055FD /* CopyFiles */,
+				DE4FFCD3185AE4B100227B12 /* CopyFiles */,
 			);
 			buildRules = (
 			);
